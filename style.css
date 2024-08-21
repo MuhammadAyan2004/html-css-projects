@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 100%;
+    background-color: rgb(194, 207, 207);
+}
+.child{
+    display: flex;
+    width: 90%;
+    height:80%;
+    background:rgb(255, 255, 255) ;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 5%;
+    justify-content: space-evenly;
+}
+.btn-one{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    top: 15px;
+    left: 50px;
+    zoom: none;
+}
+.btn-one:hover{  
+    background-color: black;
+    color: white;
+    border: none;
+    zoom: 105%;
+    cursor: pointer;
+}
+.icon i{
+
+    position: absolute;
+    left: 12.5%;
+    top: 17px;
+}
+.hy{
+    font-size: 18px;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+
+}
+.hello .btn-two{
+    justify-content: flex-end;  
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: rgb(185, 72, 19);
+    border: 1px solid rgb(185, 72, 19);
+    border-radius: 10px;
+    top: 15px;
+    right: 50px;
+    zoom: 0px;
+
+}
+.hello .btn-two:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    zoom: 105%;
+    cursor:pointer;
+    animation: 0.5s;
+}
+.hello .btn-three{
+    justify-content: flex-end;  
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    top: 15px;
+    right: 12.5%;
+    zoom: 105%;
+
+}
+.hello .btn-three:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    zoom: 105%;
+    cursor: pointer;
+}
+.child h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;  
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.pic{
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img1{
+    
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+.img2{
+    
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+.img3{
+    
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.child p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.child .para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.icon-too i{
+    position:absolute;
+    bottom: 15px;
+    left: 50%;
+    font-size: 20px;
+    zoom: 0px;
+    cursor: pointer;
+}
+.icon-too i:hover{
+    cursor: pointer;
+    zoom: 110%;
+    color: brown;
+}
